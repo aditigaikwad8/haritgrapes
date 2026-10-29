@@ -8,6 +8,9 @@ Use underscores in folder names (Healthy_Leaves, Black_Rot, Esca, Leaf_Blight, N
 Write counts per class in reports/data_summary.md (before cleaning and after). Counts before cleaning: Black_Rot 808, Esca 888, Healthy_Leaves 1109, Leaf_Blight 672, Not_a_Grape_Leaf 928.
 Target >= 800 originals per class. Cleaning removes duplicates, so Black_Rot (808) may fall below 800 and
 Leaf_Blight (672) is already below it. Say so in the report; these classes use class weights.
+After cleaning (exact and near-duplicate removal), only 96 unique Black_Rot and 152 unique Leaf_Blight
+images remain (695 and 341 exact copies were removed; 179 images conflicted between Esca and Leaf_Blight).
+Per-class test results for these two classes are based on 15 and 23 images and are rough estimates.
 
 ## 3. Clean
 - Remove corrupted/unreadable files, non-RGB oddities, tiny images (<100 px).
