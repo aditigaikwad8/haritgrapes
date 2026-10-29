@@ -1,4 +1,5 @@
 *.keras
+*.joblib
 *.h5
 __pycache__/
 .venv/

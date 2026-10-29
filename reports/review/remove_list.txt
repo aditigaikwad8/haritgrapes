@@ -1,0 +1,4 @@
+# One wrong image per line, as <Class>/<filename> (copy from the sheet .txt files).
+# Example:  Black_Rot/black rot017.jpg
+# Lines starting with # are ignored. 'build' deletes nothing from data/raw;
+# it only leaves these files out of data/split.

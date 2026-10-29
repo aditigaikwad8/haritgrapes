@@ -1,0 +1,25 @@
+1	Not_a_Grape_Leaf/Fruits_vegetables_Banana_006.jpg
+2	Not_a_Grape_Leaf/Fruits_vegetables_Mango_001.jpg
+3	Not_a_Grape_Leaf/Tools_Wrench_014.jpg
+4	Not_a_Grape_Leaf/Healthy (31).jpg
+5	Not_a_Grape_Leaf/Fruits_vegetables_Mango_015.jpg
+6	Not_a_Grape_Leaf/Bathroom_Toothbrush_004.jpeg
+7	Not_a_Grape_Leaf/Clothing_Shorts_003.jpg
+8	Not_a_Grape_Leaf/Clothing_Handkerchief_015.jpg
+9	Not_a_Grape_Leaf/Bathroom_Shampoo_bottle_007.jpg
+10	Not_a_Grape_Leaf/Food_storage_Mug_002.jpg
+11	Not_a_Grape_Leaf/20211231_124102 (Custom).jpg
+12	Not_a_Grape_Leaf/Sports_Badminton_racket_005.jpg
+13	Not_a_Grape_Leaf/Medical_Pill_strip_002.jpg
+14	Not_a_Grape_Leaf/Clothing_Shoes_002.jpg
+15	Not_a_Grape_Leaf/Clothing_Handkerchief_010.jpg
+16	Not_a_Grape_Leaf/20211231_123225 (Custom).jpg
+17	Not_a_Grape_Leaf/Bathroom_Shampoo_bottle_014.jpg
+18	Not_a_Grape_Leaf/Sports_Football_019.jpg
+19	Not_a_Grape_Leaf/Sports_Bat_005.jpeg
+20	Not_a_Grape_Leaf/Bathroom_Shampoo_bottle_002.jpeg
+21	Not_a_Grape_Leaf/Clothing_Shoes_001.jpg
+22	Not_a_Grape_Leaf/Bathroom_Shampoo_bottle_011.jpg
+23	Not_a_Grape_Leaf/Tools_Wrench_020.jpg
+24	Not_a_Grape_Leaf/3.jpg
+25	Not_a_Grape_Leaf/Tools_Screwdriver_009.jpg
