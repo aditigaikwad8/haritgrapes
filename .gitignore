@@ -10,3 +10,8 @@ data/field_test/*
 !**/.gitkeep
 logs/*.csv
 data/sources/
+logs/*.log
+reports/*/worst_mistakes_*.png
+reports/*/predictions_*.csv
+reports/review/*.jpg
+reports/review/*_sheet_*.txt

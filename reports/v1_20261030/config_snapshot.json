@@ -1,0 +1,157 @@
+{
+  "ROOT": "F:\\Downloads\\haritgrapes",
+  "DATA_DIR": "F:\\Downloads\\haritgrapes\\data",
+  "RAW_DIR": "F:\\Downloads\\haritgrapes\\data\\raw",
+  "SPLIT_DIR": "F:\\Downloads\\haritgrapes\\data\\split",
+  "FIELD_TEST_DIR": "F:\\Downloads\\haritgrapes\\data\\field_test",
+  "OUT_OF_SCOPE_DIR": "F:\\Downloads\\haritgrapes\\data\\field_test\\out_of_scope",
+  "FEEDBACK_DIR": "F:\\Downloads\\haritgrapes\\data\\feedback",
+  "FEEDBACK_PENDING_DIR": "F:\\Downloads\\haritgrapes\\data\\feedback\\pending",
+  "FEEDBACK_APPROVED_DIR": "F:\\Downloads\\haritgrapes\\data\\feedback\\approved",
+  "FEEDBACK_REJECTED_DIR": "F:\\Downloads\\haritgrapes\\data\\feedback\\rejected",
+  "MODELS_DIR": "F:\\Downloads\\haritgrapes\\models",
+  "VERSIONS_DIR": "F:\\Downloads\\haritgrapes\\models\\versions",
+  "PRODUCTION_DIR": "F:\\Downloads\\haritgrapes\\models\\production",
+  "REPORTS_DIR": "F:\\Downloads\\haritgrapes\\reports",
+  "REVIEW_DIR": "F:\\Downloads\\haritgrapes\\reports\\review",
+  "LOGS_DIR": "F:\\Downloads\\haritgrapes\\logs",
+  "CLASS_NAMES_FILE": "F:\\Downloads\\haritgrapes\\models\\versions\\class_names.json",
+  "SEED": 42,
+  "IMG_SIZE": [
+    224,
+    224
+  ],
+  "IMG_CHANNELS": 3,
+  "MIN_IMAGE_PX": 100,
+  "STORE_MAX_SIDE": 512,
+  "JPEG_QUALITY": 95,
+  "RAW_IMAGE_EXTS": [
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".bmp",
+    ".webp"
+  ],
+  "GRAYSCALE_MODES": [
+    "1",
+    "L",
+    "LA"
+  ],
+  "CLASS_NAMES": [
+    "Black_Rot",
+    "Esca",
+    "Healthy_Leaves",
+    "Leaf_Blight",
+    "Not_a_Grape_Leaf"
+  ],
+  "NUM_CLASSES": 5,
+  "NOT_LEAF_CLASS": "Not_a_Grape_Leaf",
+  "HEALTHY_CLASS": "Healthy_Leaves",
+  "DISEASE_CLASSES": [
+    "Black_Rot",
+    "Esca",
+    "Leaf_Blight"
+  ],
+  "DISPLAY_NAMES": {
+    "Black_Rot": "Black Rot",
+    "Esca": "Esca",
+    "Healthy_Leaves": "Healthy Leaves",
+    "Leaf_Blight": "Leaf Blight",
+    "Not_a_Grape_Leaf": "Not a Grape Leaf"
+  },
+  "ADVICE_KEYS": {
+    "Black_Rot": "Black_Rot",
+    "Esca": "Esca",
+    "Healthy_Leaves": "Healthy",
+    "Leaf_Blight": "Leaf_Blight",
+    "Not_a_Grape_Leaf": null
+  },
+  "UNSUPPORTED_NOTICE": "Downy Mildew and Powdery Mildew are not supported. A leaf with these diseases may be misclassified, including as Healthy.",
+  "SPLIT_NAMES": [
+    "train",
+    "val",
+    "test"
+  ],
+  "SPLIT_RATIOS": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "NEAR_DUP_MAX_HAMMING": 3,
+  "NEAR_DUP_KEEP": 3,
+  "FLAT_IMAGE_STD": 2.0,
+  "BATCH_SIZE": 32,
+  "DROPOUT": 0.4,
+  "LABEL_SMOOTHING": 0.05,
+  "PHASE1_EPOCHS": 15,
+  "PHASE1_LR": 0.001,
+  "PHASE1_PATIENCE": 4,
+  "PHASE2_EPOCHS": 25,
+  "PHASE2_LR": 1e-05,
+  "PHASE2_PATIENCE": 6,
+  "FINE_TUNE_LAYERS": 40,
+  "SANITY_TRAIN_IMAGES_PER_CLASS": 4,
+  "SANITY_MIN_TRAIN_ACC": 0.95,
+  "SANITY_MAX_SINGLE_CLASS_SHARE": 0.5,
+  "THRESHOLDS": {
+    "not_a_leaf_min_conf": 0.6,
+    "confident_min_conf": 0.85,
+    "confident_min_margin": 0.25,
+    "healthy_min_conf": 0.9,
+    "low_conf_below": 0.6
+  },
+  "MAX_UPLOAD_MB": 10,
+  "LATENCY_TARGET_MS": 500,
+  "TARGETS": {
+    "test_accuracy": 0.9,
+    "class_recall": 0.85,
+    "not_leaf_recall": 0.9,
+    "field_accuracy_aim": 0.75
+  },
+  "RETRAIN": {
+    "min_total_approved": 100,
+    "min_per_class": 15,
+    "max_days_between": 30,
+    "feedback_cap_fraction": 0.3,
+    "feedback_holdout_fraction": 0.15,
+    "learning_rate": 1e-05
+  },
+  "PROMOTION": {
+    "min_test_macro_f1_gain": 0.0,
+    "min_field_gain_points": 0.005,
+    "max_class_recall_drop": 0.02,
+    "not_leaf_false_accept_no_worse": true,
+    "max_latency_ms": 500
+  },
+  "version_tag": "v1_20261030",
+  "model_file": "v1_20261030.keras",
+  "seed": 42,
+  "train_counts": {
+    "Black_Rot": 66,
+    "Esca": 495,
+    "Healthy_Leaves": 764,
+    "Leaf_Blight": 106,
+    "Not_a_Grape_Leaf": 621
+  },
+  "class_weights": {
+    "Black_Rot": 6.218181818181818,
+    "Esca": 0.8290909090909091,
+    "Healthy_Leaves": 0.53717277486911,
+    "Leaf_Blight": 3.871698113207547,
+    "Not_a_Grape_Leaf": 0.6608695652173913
+  },
+  "phase1_epochs_run": 8,
+  "phase2_epochs_run": 12,
+  "val_accuracy": 0.9796380090497737,
+  "val_macro_f1": 0.952838420945217,
+  "val_pred_distribution": {
+    "Black_Rot": 17,
+    "Esca": 100,
+    "Healthy_Leaves": 169,
+    "Leaf_Blight": 22,
+    "Not_a_Grape_Leaf": 134
+  },
+  "sanity_untrained_val_acc": 0.21040724217891693,
+  "sanity_train20_acc": 1.0,
+  "pretrained": true
+}

@@ -1,9 +1,0 @@
-2026-10-30 01:00:19,175 | INFO | Folders ready. Put real phone photos in data/field_test/<Class>/ and mildew photos in data/field_test/out_of_scope/<Disease>/.
-2026-10-30 01:00:23,866 | INFO | Review sheets written for Black_Rot (50 images)
-2026-10-30 01:00:26,464 | INFO | Review sheets written for Esca (50 images)
-2026-10-30 01:00:31,105 | INFO | Review sheets written for Healthy_Leaves (50 images)
-2026-10-30 01:00:34,509 | INFO | Review sheets written for Leaf_Blight (50 images)
-2026-10-30 01:00:44,885 | INFO | Review sheets written for Not_a_Grape_Leaf (50 images)
-2026-10-30 01:00:44,887 | WARNING | 30 files in Not_a_Grape_Leaf look like GVLiD/grape images by name (e.g. Healthy (10).jpg). Check them.
-2026-10-30 01:00:44,888 | INFO | Open the .jpg sheets in reports/review/, list mislabelled images in F:\Downloads\haritgrapes\reports\review\remove_list.txt, then run: python -m src.data_prep build
-2026-10-30 01:00:44,889 | INFO | If more than ~2 of 50 are wrong in a class, review that whole class.

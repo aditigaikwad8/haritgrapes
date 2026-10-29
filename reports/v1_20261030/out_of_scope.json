@@ -1,0 +1,60 @@
+{
+  "ALL": {
+    "n": 60,
+    "predicted_healthy_confident_pct": 0.0,
+    "predicted_healthy_any_pct": 20.0,
+    "uncertain_or_low_confidence_pct": 91.66666666666667,
+    "not_a_leaf_pct": 3.3333333333333335,
+    "forced_into_class_pct": {
+      "Black_Rot": 43.333333333333336,
+      "Esca": 0.0,
+      "Healthy_Leaves": 20.0,
+      "Leaf_Blight": 0.0,
+      "Not_a_Grape_Leaf": 36.666666666666664
+    },
+    "status_counts": {
+      "low_confidence": 46,
+      "uncertain": 9,
+      "not_a_leaf": 2,
+      "confident": 3
+    }
+  },
+  "Downy_Mildew": {
+    "n": 30,
+    "predicted_healthy_confident_pct": 0.0,
+    "predicted_healthy_any_pct": 26.666666666666668,
+    "uncertain_or_low_confidence_pct": 93.33333333333333,
+    "not_a_leaf_pct": 6.666666666666667,
+    "forced_into_class_pct": {
+      "Black_Rot": 16.666666666666668,
+      "Esca": 0.0,
+      "Healthy_Leaves": 26.666666666666668,
+      "Leaf_Blight": 0.0,
+      "Not_a_Grape_Leaf": 56.666666666666664
+    },
+    "status_counts": {
+      "low_confidence": 24,
+      "uncertain": 4,
+      "not_a_leaf": 2
+    }
+  },
+  "Powdery_Mildew": {
+    "n": 30,
+    "predicted_healthy_confident_pct": 0.0,
+    "predicted_healthy_any_pct": 13.333333333333334,
+    "uncertain_or_low_confidence_pct": 90.0,
+    "not_a_leaf_pct": 0.0,
+    "forced_into_class_pct": {
+      "Black_Rot": 70.0,
+      "Esca": 0.0,
+      "Healthy_Leaves": 13.333333333333334,
+      "Leaf_Blight": 0.0,
+      "Not_a_Grape_Leaf": 16.666666666666668
+    },
+    "status_counts": {
+      "low_confidence": 22,
+      "confident": 3,
+      "uncertain": 5
+    }
+  }
+}

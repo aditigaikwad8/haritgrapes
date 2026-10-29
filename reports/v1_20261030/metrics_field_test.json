@@ -1,0 +1,87 @@
+{
+  "n_images": 139,
+  "accuracy": 0.2805755395683453,
+  "macro_f1": 0.2388408521303258,
+  "per_class": {
+    "Black_Rot": {
+      "precision": 0.375,
+      "recall": 0.1,
+      "f1-score": 0.15789473684210525,
+      "support": 30
+    },
+    "Esca": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 30
+    },
+    "Healthy_Leaves": {
+      "precision": 0.29411764705882354,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.3125,
+      "support": 30
+    },
+    "Leaf_Blight": {
+      "precision": 1.0,
+      "recall": 0.20689655172413793,
+      "f1-score": 0.34285714285714286,
+      "support": 29
+    },
+    "Not_a_Grape_Leaf": {
+      "precision": 0.23529411764705882,
+      "recall": 1.0,
+      "f1-score": 0.38095238095238093,
+      "support": 20
+    }
+  },
+  "confusion_matrix": [
+    [
+      3,
+      6,
+      15,
+      0,
+      6
+    ],
+    [
+      2,
+      0,
+      6,
+      0,
+      22
+    ],
+    [
+      0,
+      0,
+      10,
+      0,
+      20
+    ],
+    [
+      3,
+      0,
+      3,
+      6,
+      17
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      20
+    ]
+  ],
+  "pred_distribution": {
+    "Black_Rot": 8,
+    "Esca": 6,
+    "Healthy_Leaves": 34,
+    "Leaf_Blight": 6,
+    "Not_a_Grape_Leaf": 85
+  },
+  "not_leaf": {
+    "recall": 1.0,
+    "false_accept_rate": 0.0,
+    "false_reject_rate": 0.5462184873949579
+  },
+  "n_worst_plotted": 20
+}

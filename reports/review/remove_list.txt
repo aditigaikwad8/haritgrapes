@@ -2,3 +2,33 @@
 # Example:  Black_Rot/black rot017.jpg
 # Lines starting with # are ignored. 'build' deletes nothing from data/raw;
 # it only leaves these files out of data/split.
+Not_a_Grape_Leaf/Healthy (10).jpg
+Not_a_Grape_Leaf/Healthy (11).jpg
+Not_a_Grape_Leaf/Healthy (17).jpg
+Not_a_Grape_Leaf/Healthy (18).jpg
+Not_a_Grape_Leaf/Healthy (19).jpg
+Not_a_Grape_Leaf/Healthy (20).jpg
+Not_a_Grape_Leaf/Healthy (21).jpg
+Not_a_Grape_Leaf/Healthy (22).jpg
+Not_a_Grape_Leaf/Healthy (28).jpg
+Not_a_Grape_Leaf/Healthy (29).jpg
+Not_a_Grape_Leaf/Healthy (30).jpg
+Not_a_Grape_Leaf/Healthy (31).jpg
+Not_a_Grape_Leaf/Healthy (32).jpg
+Not_a_Grape_Leaf/Healthy (33).jpg
+Not_a_Grape_Leaf/Healthy (34).jpg
+Not_a_Grape_Leaf/Healthy (35).jpg
+Not_a_Grape_Leaf/Healthy (36).jpg
+Not_a_Grape_Leaf/Healthy (37).jpg
+Not_a_Grape_Leaf/Healthy (38).jpg
+Not_a_Grape_Leaf/Healthy (39).jpg
+Not_a_Grape_Leaf/Healthy (40).jpg
+Not_a_Grape_Leaf/Healthy (41).jpg
+Not_a_Grape_Leaf/Healthy (42).jpg
+Not_a_Grape_Leaf/Healthy (43).jpg
+Not_a_Grape_Leaf/Healthy (44).jpg
+Not_a_Grape_Leaf/Healthy (5).jpg
+Not_a_Grape_Leaf/Healthy (6).jpg
+Not_a_Grape_Leaf/Healthy (7).jpg
+Not_a_Grape_Leaf/Healthy (8).jpg
+Not_a_Grape_Leaf/Healthy (9).jpg
