@@ -5,5 +5,7 @@ __pycache__/
 data/raw/*/*
 data/split/*/*
 data/feedback/*/*
+data/field_test/*
 !**/.gitkeep
 logs/*.csv
+data/sources/

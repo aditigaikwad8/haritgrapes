@@ -8,6 +8,7 @@ Phase 1 (head only): base frozen, new head (global average pooling, dropout ~0.4
 Adam lr 1e-3, up to ~15 epochs, early stopping on val loss.
 Phase 2 (fine-tune): unfreeze top ~40 layers (keep BatchNorm frozen), Adam lr 1e-5, up to ~25 epochs, early stopping, ReduceLROnPlateau.
 Loss: categorical cross-entropy. Class weights from TRAIN counts. Light label smoothing (0.05-0.1) optional.
+Class weights are computed from train counts (Leaf_Blight is the smallest class).
 Augmentation (in model): flips, rotation, zoom, contrast, brightness. Do NOT apply mixup at first.
 
 ## Model B (optional): EfficientNetB0

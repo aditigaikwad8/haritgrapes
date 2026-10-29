@@ -17,6 +17,7 @@ label, confidence, top-3 with probabilities, status, model version.
 
 Rules:
 - Healthy_Leaves is also gated by thresholds (avoid telling a farmer a sick plant is healthy: for Healthy require conf >= 0.90).
+- Mildew-diseased leaves are not in the training classes and may be predicted as Healthy. The app must show the unsupported-disease notice on every result.
 - Optional test-time augmentation (average of original + flips) to stabilise confidence.
 - Thresholds live in src/config.py, not scattered in code.
 - Show the model version and "AI suggestion, confirm with an agriculture officer" on every result.

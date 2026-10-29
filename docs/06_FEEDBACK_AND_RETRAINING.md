@@ -1,7 +1,8 @@
 # 06 Feedback buttons and retraining
 
 ## Feedback UI (in app)
-After a confident/uncertain result: "Correct" / "Wrong". If Wrong: dropdown of the 5 classes ("Actually it is ...").
+After a confident/uncertain result: "Correct" / "Wrong". If Wrong: dropdown of the 5 classes plus "Disease not listed / other" ("Actually it is ...").
+Images labelled "Disease not listed / other" are logged but never used for training. This stops mildew photos being forced into a wrong class.
 Optional: consent checkbox "Allow this photo to be used to improve the model".
 Only store photos with consent. Strip EXIF/GPS data. Store no names or phone numbers.
 
@@ -9,6 +10,7 @@ Only store photos with consent. Strip EXIF/GPS data. Store no names or phone num
 data/feedback/pending/<uuid>.jpg + a row in logs/feedback.csv:
 timestamp, image_id, image_hash, predicted_label, confidence, user_label, user_said_correct, model_version, status.
 Every prediction (even without feedback) is logged in logs/predictions.csv for monitoring.
+The folders under data/feedback/approved/<class>/ are created by code when needed.
 
 ## Trust rules
 | Signal | Use |
@@ -17,6 +19,7 @@ Every prediction (even without feedback) is logged in logs/predictions.csv for m
 | Wrong + corrected label | pending, then MUST be reviewed (a human or you) before approved |
 | No feedback | never used as a label |
 | Low confidence / not_a_leaf | never used |
+| "Disease not listed / other" | logged only, never used for training |
 Review: you (or the guide) look at pending images in a simple folder view, move to approved/<class>/ or rejected/.
 Deduplicate by hash. Cap how many images one user session can add.
 

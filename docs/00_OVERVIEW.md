@@ -6,11 +6,13 @@ Photo -> quality check -> classifier -> confidence rules -> (advice | retake | "
 ## Why a clean restart
 Old runs mixed input scaling (0-255 vs 0-1), used different splits, leaked augmented copies across
 train/val, had a wrong class order in the app, and reset the classifier head. Retrain once, cleanly.
+The dataset was later replaced with GVLiD (Black Rot, Esca, Leaf Blight, Healthy), so classes and counts changed.
 
 ## Fixed decisions (do not change mid-project)
 | Topic | Decision |
 |---|---|
-| Classes (model output) | Bacterial_Rot, Downey_Mildew, Healthy_Leaves, Powdery_Mildew, Not_a_Grape_Leaf |
+| Classes (model output) | Black_Rot, Esca, Healthy_Leaves, Leaf_Blight, Not_a_Grape_Leaf |
+| Data source | GVLiD (4 grape classes, one phone, one date) + separate Not_a_Grape_Leaf images. Metadata file not used. |
 | Base model | MobileNetV2 (ImageNet); optional EfficientNetB0 for comparison |
 | Input | 224x224 RGB |
 | Preprocessing | INSIDE the model (one place only). The app sends raw 0-255 pixels. |

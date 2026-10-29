@@ -9,6 +9,16 @@ Run on: (a) test set, (b) field_test set. Save to reports/<version>/.
 - Confidence histograms: correct vs wrong predictions
 - Not_a_Grape_Leaf: false-accept rate (random photo accepted as a grape leaf) and false-reject rate
 - Latency per image (target <= 500 ms desktop)
+- Per-class precision, recall and F1 for Black_Rot, Esca, Healthy_Leaves, Leaf_Blight, Not_a_Grape_Leaf
+- Out-of-scope check (see below)
+
+## Out-of-scope check (unsupported diseases)
+Collect 20-30 photos of Downy Mildew and Powdery Mildew leaves into data/field_test/out_of_scope/.
+Never train on them. Run them through the app's predict function and report:
+- % predicted Healthy with high confidence (the dangerous case)
+- % returned as uncertain or low_confidence
+- % forced into each disease class
+Report these numbers honestly. They define the limitation shown in the app.
 
 ## Acceptance targets (v1)
 | Metric | Target |

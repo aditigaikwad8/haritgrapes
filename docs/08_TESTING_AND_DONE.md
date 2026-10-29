@@ -7,6 +7,7 @@
 - Thresholds: each status returned for crafted probability vectors
 - Feedback: file saved, row logged, EXIF removed, duplicates ignored
 - Promotion: candidate worse than production is rejected
+- Label mapping covers all 5 classes (model label -> display name -> advice key)
 
 ## Manual tests
 - 5 images per class from train, 5 from test, 5 from field_test through the actual app
@@ -24,6 +25,10 @@
 - [ ] Feedback saved with consent, review step working
 - [ ] One full retrain cycle completed with a promote/reject decision and a version table
 - [ ] README with screenshots, limitations and ethics notes
+- [ ] Labels spot-checked by eye (about 50 per class) and wrong ones removed
+- [ ] Split done once (seed 42, stratified) after removing duplicates; every class in every split
+- [ ] Unsupported-disease notice shown on every result
+- [ ] Out-of-scope (mildew) check reported
 
 ## Suggested schedule (about 2 weeks)
 Days 1-2 data | 3-4 training + evaluation | 5 thresholds + Not-a-leaf | 6-7 app + recommendation | 8-9 feedback system | 10-11 retrain cycle + report | 12-14 tests, polish, website.
